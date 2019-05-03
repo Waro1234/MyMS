@@ -2,8 +2,10 @@ var Config = {};
 
 Config.server_name = "My-MS";
 
-Config.mega_download_link = "https://mega.nz/#!0xZi1KDY!CZRJXmrbyMVnYgfTFR1xdprsogO9bhlwWOy2M1P0LNU";
-Config.gdrive_download_link = "https://drive.google.com/uc?id=14I1QmBNxL3SyVhdHMfuS_sym1YWxIXoj&export=download";
+Config.mega_download_link = "https://mega.nz/#!x8AgAAga!xUbcSuozRFsnSU7rM_M-iST2r_amvMDITp93hggzMl8";
+Config.gdrive_download_link = "https://drive.google.com/uc?id=1slRJ9ZJqjHrsE5jhQayqx6NUUmCJcoEU&export=download";
+Config.mega_launcher_link = "";
+Config.gdrive_launcher_link = "";
 
 Config.forum_link = "https://my-ms.info/forums";//https://my-ms.info/forums
 
