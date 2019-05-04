@@ -75,6 +75,7 @@ class Downloads extends React.Component {
                   </ol>
                   {this.getSetup()}
                   {this.getClient()}
+                  {this.getLauncher()}
               </main>
           </div>
       );
