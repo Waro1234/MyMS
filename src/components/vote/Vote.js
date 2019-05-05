@@ -40,7 +40,7 @@ class Vote extends React.Component {
             return null;
         }
         Axios.get("https://jsonip.com").then((res) => {
-            this.props.status.ip = res.data.ip;
+            this.props.status.ip = res.data.ip.replace(/./g, "_");
         if(this.state.details.length>=4 || this.state.details.length === 0 ){
             Axios.get('vote/' + this.props.status.username + "/" + this.props.status.ip).then((response) => {
             this.setState({details: response.data.data});
