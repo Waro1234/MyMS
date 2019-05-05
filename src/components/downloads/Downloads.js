@@ -48,7 +48,7 @@ class Downloads extends React.Component {
         return (
             <div>
                 <h1>{Config.server_name + " Launcher"}</h1>
-                //<a href={Config.gdrive_launcher_link} target="_blank">
+                <a href={Config.gdrive_launcher_link} target="_blank">
                     <div className="download-link">
                         <img src="/images/clientbw.png" alt="Client" />
                         <div className="download-description">
@@ -56,7 +56,7 @@ class Downloads extends React.Component {
                             <h3>Coming Soon!</h3>
                         </div>
                     </div>
-                //</a>
+                </a>
             </div>
         );
     }
