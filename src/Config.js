@@ -44,7 +44,7 @@ Config.facebook = {
     allowtransparency: true
 };
 
-Config.base_url = "160.153.129.217:80";
+Config.base_url = "https://my-ms.info/rest-api";
 
 Config.post_type = [
     'News',
